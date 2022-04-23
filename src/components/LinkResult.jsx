@@ -41,6 +41,7 @@ const LinkResult = ({ inputValue }) => {
     return <p className="noData"> Oops something went wrong :(</p>
   }
 
+
  return (
     <>
       {shortenLink && (
@@ -57,5 +58,6 @@ const LinkResult = ({ inputValue }) => {
     </>
   )
 }
+
 
 export default LinkResult
