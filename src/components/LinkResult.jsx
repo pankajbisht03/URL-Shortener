@@ -36,6 +36,7 @@ const LinkResult = ({ inputValue }) => {
 
   if(loading) {
     return <p className="noData">Loading...</p>
+    
   }
   if(error) {
     return <p className="noData"> Oops something went wrong :(</p>
