@@ -43,7 +43,6 @@ const LinkResult = ({ inputValue }) => {
 
 
  return (
-
     <>
       {shortenLink && (
         <div className="result">
@@ -59,6 +58,5 @@ const LinkResult = ({ inputValue }) => {
     </>
   )
 }
-
 
 export default LinkResult
