@@ -14,8 +14,7 @@ const InputShortener = ({ setInputValue }) => {
           type="text"
           placeholder="Paste a link to shorten it"
           value={value}
-          onChange={e => setValue(e.target.value)}  
-
+          onChange={e => setValue(e.target.value)} 
         />
         <button onClick={handleClick}>Go</button>
       </div>
