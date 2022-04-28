@@ -19,6 +19,7 @@ const InputShortener = ({ setInputValue }) => {
         <button onClick={handleClick}>Go</button>
       </div>
     </div> 
+    
   )
 }
 
