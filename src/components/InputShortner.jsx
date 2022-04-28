@@ -6,6 +6,7 @@ const InputShortener = ({ setInputValue }) => {
     setInputValue(value);
     setValue("");
   }
+  
   return (
     <div className="inputContainer">
       <h1>URL <span>Shortener</span></h1>
