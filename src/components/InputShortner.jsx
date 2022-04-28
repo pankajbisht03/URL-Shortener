@@ -22,4 +22,6 @@ const InputShortener = ({ setInputValue }) => {
   )
 }
 
+
+
 export default InputShortener
